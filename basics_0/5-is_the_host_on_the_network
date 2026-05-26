@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# We're pinging things now!
+# Pings the IP address 5 times
 if [ $# -ne 1 ]; then
   echo "Usage: 5-is_the_host_on_the_internet {IP_ADDRESS}"
 else
-  ADDRESS=$1
-  ping -c 5 "$ADDRESS"
+  ping -c 5 "$1"
 fi
