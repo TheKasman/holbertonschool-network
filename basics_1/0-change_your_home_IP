@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# changes ip addresses in /etc/hosts file
 sed -i '/localhost/d' /etc/hosts
 sed -i '/facebook.com/d' /etc/hosts
 
