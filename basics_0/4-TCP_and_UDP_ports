@@ -1,3 +1,2 @@
 #!/bin/bash
-ss -lntup
-ss -lxunp
+netstat -lpn
